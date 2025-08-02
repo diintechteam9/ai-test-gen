@@ -1,5 +1,5 @@
 const express=require('express');
-const {generateQuestion}=require('../controller/generatequestioncontroller\\');
+const {generateQuestion}=require('../controller/generatequestioncontroller');
 const router=express.Router();
 
 // POST /generate-questions
